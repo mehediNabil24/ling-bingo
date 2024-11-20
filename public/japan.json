@@ -1,0 +1,179 @@
+[
+    {
+      "id": "word001",
+      "word": "ありがとう",
+      "pronunciation": "arigatou",
+      "meaning": "thank you",
+      "part_of_speech": "expression",
+      "difficulty": "easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to express gratitude in informal settings.",
+      "example": "ありがとう、助けてくれて！ (arigatou, tasukete kurete!) - Thank you for helping me!"
+    },
+    {
+      "id": "word002",
+      "word": "こんにちは",
+      "pronunciation": "konnichiwa",
+      "meaning": "hello",
+      "part_of_speech": "expression",
+      "difficulty": "easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to greet someone in the afternoon.",
+      "example": "こんにちは、お元気ですか？ (konnichiwa, o-genki desu ka?) - Hello, how are you?"
+    },
+    {
+      "id": "word003",
+      "word": "さようなら",
+      "pronunciation": "sayounara",
+      "meaning": "goodbye",
+      "part_of_speech": "expression",
+      "difficulty": "medium",
+      "lesson_no": 1,
+      "when_to_say": "Used to bid farewell, often in formal settings.",
+      "example": "さようなら、また明日！ (sayounara, mata ashita!) - Goodbye, see you tomorrow!"
+    },
+    {
+      "id": "word004",
+      "word": "すみません",
+      "pronunciation": "sumimasen",
+      "meaning": "excuse me; I'm sorry",
+      "part_of_speech": "expression",
+      "difficulty": "medium",
+      "lesson_no": 2,
+      "when_to_say": "Used to apologize or to get someone's attention.",
+      "example": "すみません、道を教えてください。 (sumimasen, michi o oshiete kudasai) - Excuse me, can you tell me the way?"
+    },
+    {
+      "id": "word005",
+      "word": "はい",
+      "pronunciation": "hai",
+      "meaning": "yes",
+      "part_of_speech": "adverb",
+      "difficulty": "easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to affirm or agree to something.",
+      "example": "はい、わかりました。 (hai, wakarimashita) - Yes, I understand."
+    },
+    {
+      "id": "word006",
+      "word": "いいえ",
+      "pronunciation": "iie",
+      "meaning": "no",
+      "part_of_speech": "adverb",
+      "difficulty": "easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to deny or reject something politely.",
+      "example": "いいえ、大丈夫です。 (iie, daijoubu desu) - No, it's okay."
+    },
+    {
+      "id": "word007",
+      "word": "友達",
+      "pronunciation": "tomodachi",
+      "meaning": "friend",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 3,
+      "when_to_say": "Used to refer to a companion or close acquaintance.",
+      "example": "彼は私の友達です。 (kare wa watashi no tomodachi desu) - He is my friend."
+    },
+    {
+      "id": "word008",
+      "word": "家",
+      "pronunciation": "ie",
+      "meaning": "house",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 3,
+      "when_to_say": "Used to refer to one's home or a building where people live.",
+      "example": "私の家はここです。 (watashi no ie wa koko desu) - My house is here."
+    },
+    {
+      "id": "word009",
+      "word": "水",
+      "pronunciation": "mizu",
+      "meaning": "water",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 4,
+      "when_to_say": "Used to refer to water for drinking or general use.",
+      "example": "水をください。 (mizu o kudasai) - Please give me water."
+    },
+    {
+      "id": "word010",
+      "word": "食べる",
+      "pronunciation": "taberu",
+      "meaning": "to eat",
+      "part_of_speech": "verb",
+      "difficulty": "medium",
+      "lesson_no": 4,
+      "when_to_say": "Used to describe the act of consuming food.",
+      "example": "私は寿司を食べるのが好きです。 (watashi wa sushi o taberu no ga suki desu) - I like eating sushi."
+    },
+    {
+      "id": "word011",
+      "word": "読む",
+      "pronunciation": "yomu",
+      "meaning": "to read",
+      "part_of_speech": "verb",
+      "difficulty": "medium",
+      "lesson_no": 5,
+      "when_to_say": "Used to describe the act of reading books, magazines, or any text.",
+      "example": "彼は毎朝新聞を読む。 (kare wa mai asa shinbun o yomu) - He reads the newspaper every morning."
+    },
+    {
+      "id": "word012",
+      "word": "書く",
+      "pronunciation": "kaku",
+      "meaning": "to write",
+      "part_of_speech": "verb",
+      "difficulty": "medium",
+      "lesson_no": 5,
+      "when_to_say": "Used to describe the act of writing letters, notes, or documents.",
+      "example": "私は日記を書くのが好きです。 (watashi wa nikki o kaku no ga suki desu) - I like writing in my diary."
+    },
+    {
+      "id": "word013",
+      "word": "猫",
+      "pronunciation": "neko",
+      "meaning": "cat",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 6,
+      "when_to_say": "Used to refer to the domestic animal 'cat.'",
+      "example": "私の猫はとてもかわいいです。 (watashi no neko wa totemo kawaii desu) - My cat is very cute."
+    },
+    {
+      "id": "word014",
+      "word": "犬",
+      "pronunciation": "inu",
+      "meaning": "dog",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 6,
+      "when_to_say": "Used to refer to the domestic animal 'dog.'",
+      "example": "その犬はとても賢い。 (sono inu wa totemo kashikoi) - That dog is very smart."
+    },
+    {
+      "id": "word015",
+      "word": "学校",
+      "pronunciation": "gakkou",
+      "meaning": "school",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 7,
+      "when_to_say": "Used to refer to an educational institution.",
+      "example": "私の妹は学校に通っています。 (watashi no imouto wa gakkou ni kayotteimasu) - My younger sister goes to school."
+    },
+    {
+      "id": "word016",
+      "word": "ありがとうございません",
+      "pronunciation": "arigatou gozaimasen",
+      "meaning": "thank you very much (formal)",
+      "part_of_speech": "expression",
+      "difficulty": "medium",
+      "lesson_no": 8,
+      "when_to_say": "Used in formal or polite situations to express gratitude.",
+      "example": "先生、ありがとうございました。 (sensei, arigatou gozaimashita) - Teacher, thank you very much."
+    }
+  ]
+  

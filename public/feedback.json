@@ -1,0 +1,52 @@
+[
+    {
+      "reviewId": "1",
+      "name": "Alice Johnson",
+      "userImg": "https://i.ibb.co.com/wyh8Pbp/willam.jpg",
+      "review": "The lessons are incredibly well-structured and easy to follow. As someone who struggled with learning new languages, this platform made it feel effortless. I particularly loved the vocabulary breakdown and practical examples!"
+    },
+    {
+      "reviewId": "2",
+      "name": "Michael Smith",
+      "userImg": "https://i.ibb.co.com/XChMztJ/kohli.jpg",
+      "review": "Fantastic resource! The tutorials are engaging, and I appreciated the animated success tracker on the home page. It’s motivating to see my progress displayed visually. Highly recommended for all language enthusiasts."
+    },
+    {
+      "reviewId": "3",
+      "name": "Sophia Williams",
+      "userImg": "https://i.ibb.co.com/8BHz3Zq/david.jpg",
+      "review": "The user interface is clean and intuitive, making it super easy to navigate between lessons and tutorials. I also liked how the lessons were broken into manageable sections. A big thumbs up for the detailed examples provided!"
+    },
+    {
+      "reviewId": "4",
+      "name": "Daniel Brown",
+      "userImg": "https://i.ibb.co.com/fGqkMd8/rashid.jpg",
+      "review": "I’ve tried other language platforms, but this one stands out for its simplicity and effectiveness. The 'when to say' feature is a gem – it teaches the nuances of using vocabulary in real-world conversations."
+    },
+    {
+      "reviewId": "5",
+      "name": "Emma Davis",
+      "userImg": "https://i.ibb.co.com/qJss3tN/bumrah.jpg",
+      "review": "This platform transformed how I learn languages. The vocabulary examples were not only helpful but also fun to practice with. The personalized approach and attention to detail set this platform apart from others."
+    },
+    {
+      "reviewId": "6",
+      "name": "James Wilson",
+      "userImg": "https://i.ibb.co.com/CJprBrY/babar.jpg",
+      "review": "I loved the social login feature – it was seamless and quick. Once inside, I found the lessons to be a perfect mix of challenge and fun. The tutorials are excellent, especially for beginners. Great job!"
+    },
+    {
+      "reviewId": "7",
+      "name": "Olivia Martinez",
+      "userImg": "https://i.ibb.co.com/p3H2mRh/ben-stoke.jpg",
+      "review": "Learning a new language felt daunting, but this platform made it enjoyable. I appreciated the color-coded difficulty levels in lessons and how well the vocabularies were categorized. The example sentences were extremely useful!"
+    },
+    {
+      "reviewId": "8",
+      "name": "Liam Anderson",
+      "userImg": "https://i.ibb.co.com/XCsJQcQ/andre.jpg",
+      "review": "This is by far the best platform for learning languages I’ve come across. The 'Learn Vocabulary' section is thorough and interactive. The success section with animated counters adds a fun touch and keeps me motivated."
+    }
+
+  ]
+  

@@ -11,6 +11,7 @@ import Home from './Components/Home.jsx';
 import StartLearning from './Components/StartLearning.jsx';
 import Tutorials from './Components/Tutorials.jsx';
 import AboutUs from './Components/AboutUs.jsx';
+import LearningDetails from './Components/LearningDetails.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,12 +19,14 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader:()=> fetch('/feedback.json')
 
       },
       {
         path: '/start-learning',
-        element: <StartLearning></StartLearning>
+        element: <StartLearning></StartLearning>,
+        loader: ()=> fetch('/japan.json')
 
       },
       {
@@ -33,6 +36,20 @@ const router = createBrowserRouter([
       {
         path:'/about-us',
         element: <AboutUs></AboutUs>
+      },
+      {
+        path:'/details/:id',
+        element: <LearningDetails></LearningDetails>,
+        loader: async ({params})=>{
+          const res = await fetch('/japan.json');
+          const data = await res.json();
+          const singleData = data.find(d=>d.id==params.id)
+          console.log('data',data)
+          console.log('params',params.id)
+          console.log('single',singleData)
+          return singleData;
+          
+        }
       }
     ]
   },
