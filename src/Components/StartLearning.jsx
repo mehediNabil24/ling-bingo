@@ -1,8 +1,9 @@
 import React from "react";
-import { NavLink, useLoaderData } from "react-router-dom";
+import { NavLink, useLoaderData, useNavigate } from "react-router-dom";
 
 const StartLearning = () => {
     const japan = useLoaderData(); 
+    const navigate =useNavigate();
     const {id} =japan;
     
 
@@ -40,7 +41,7 @@ const StartLearning = () => {
       {/* View More Button */}
       <button
         className="btn  bg-blue-950 mt-8 text-bold text-white text-2xl block mx-auto"
-        onClick={() => navigate('/tutorials')}
+        onClick={() => navigate('/tutorial')}
       >
         View More Tutorials
       </button>

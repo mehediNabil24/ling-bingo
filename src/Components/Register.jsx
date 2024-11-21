@@ -5,7 +5,7 @@ import { AuthContext } from './AuthProvider';
 
 
 const Register = () => {
-  const { createNewUser,setUser,updatedUserProfile } = useContext(AuthContext);
+  const { user,createNewUser,setUser,updatedUserProfile } = useContext(AuthContext);
   const [showError, setShowError] = useState('')
   const navigate= useNavigate();
 
@@ -18,6 +18,19 @@ const Register = () => {
     const photo = e.target.photo.value;
     const password = e.target.password.value;
 
+    if (password.length < 7) {
+        setShowError("password must be 6 character");
+        return;
+      }
+  
+      const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).+$/;
+      if (!regex.test(password)) {
+        setShowError(
+          "password should include one uppercase, one lowercase and one special character"
+        );
+        return;
+      }
+
     // console.log(name, email, photo, password);
 
     createNewUser(email, password)
@@ -25,8 +38,10 @@ const Register = () => {
         // console.log(result.user);
         setUser(result.user)
         updatedUserProfile({displayName: name, photoURL: photo})
+        
             .then(()=>{
                 navigate('/')
+                setUser({...user, displayName: name,photoURL:photo});
 
 
             })

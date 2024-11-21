@@ -16,13 +16,15 @@ const Navbar = () => {
                 <NavLink to={'/start-learning'}>Start-Learning</NavLink>
                 <NavLink to={'/tutorial'}>Tutorials</NavLink>
                 <NavLink to={'/about-us'}>About-us</NavLink>
+                <NavLink to={'/my-profile'}>My-Profile</NavLink>
+
             </div>
             <div className='flex items-center justify-center gap-2'>
             <div>
                 {
-                    user?.email? <div>
+                    user?.email? <div className='flex flex-col items-center justify-center mr-2 '>
                         <p>{user.displayName}</p>
-                        <img src={user.photoURL} alt="" />
+                        <img className='w-[50px] h-[50px] rounded-full' src={user.photoURL} alt="" />
                     </div>:<FaUserLarge className='text-2xl'></FaUserLarge>
                 }
             </div>
