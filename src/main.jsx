@@ -18,6 +18,7 @@ import AuthProvider from './Components/AuthProvider.jsx';
 import PrivateRoutes from './Components/PrivateRoutes.jsx';
 import MyProfile from './Components/MyProfile.jsx';
 import Error from './Components/Error.jsx';
+import ProfileUpdated from './Components/ProfileUpdated.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
       {
         path: '*',
         element: <Error></Error>
+      },
+      {
+        path:'/profileupdate',
+        element: <ProfileUpdated></ProfileUpdated>
       }
     ]
   },
