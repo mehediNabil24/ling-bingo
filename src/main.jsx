@@ -12,6 +12,10 @@ import StartLearning from './Components/StartLearning.jsx';
 import Tutorials from './Components/Tutorials.jsx';
 import AboutUs from './Components/AboutUs.jsx';
 import LearningDetails from './Components/LearningDetails.jsx';
+import Login from './Components/Login.jsx';
+import Register from './Components/Register.jsx';
+import AuthProvider from './Components/AuthProvider.jsx';
+import PrivateRoutes from './Components/PrivateRoutes.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -39,7 +43,7 @@ const router = createBrowserRouter([
       },
       {
         path:'/details/:id',
-        element: <LearningDetails></LearningDetails>,
+        element: <PrivateRoutes><LearningDetails></LearningDetails></PrivateRoutes>,
         loader: async ({params})=>{
           const res = await fetch('/japan.json');
           const data = await res.json();
@@ -49,7 +53,17 @@ const router = createBrowserRouter([
           console.log('single',singleData)
           return singleData;
           
-        }
+        },
+        
+      },
+      {
+        path:'/login',
+        element: <Login></Login>
+
+      },
+      {
+        path: '/register',
+        element: <Register></Register>
       }
     ]
   },
@@ -57,6 +71,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+   <AuthProvider> <RouterProvider router={router} /></AuthProvider>
   </StrictMode>,
 )

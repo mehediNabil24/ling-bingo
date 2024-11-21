@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import logo from '../assets/lingo-bingo-high-resolution-logo.jpeg'
 import { NavLink } from 'react-router-dom';
 import { FaUserLarge } from "react-icons/fa6";
+import { AuthContext } from './AuthProvider';
 
 const Navbar = () => {
+    const {user,logOut} =useContext(AuthContext);
     return (
         <div className='flex justify-between items-center  '>
             <div>
@@ -16,13 +18,34 @@ const Navbar = () => {
                 <NavLink to={'/about-us'}>About-us</NavLink>
             </div>
             <div className='flex items-center justify-center gap-2'>
-                <FaUserLarge className='text-2xl'></FaUserLarge>
-                <button className='btn btn-neutral'>Log in </button>
+            <div>
+                {
+                    user?.email? <div>
+                        <p>{user.displayName}</p>
+                        <img src={user.photoURL} alt="" />
+                    </div>:<FaUserLarge className='text-2xl'></FaUserLarge>
+                }
+            </div>
+
+            <div>
+            {
+                user?( <button onClick={logOut} className ='btn btn-neutral'>Log out</button>):  (<NavLink to={'/login'} className='btn btn-neutral'>Log in </NavLink>)
+            }
+            
 
             </div>
+
+          
+                
+               
+
+            </div>
+            </div>
             
-        </div>
+        
     );
+    
+    
 };
 
 export default Navbar;

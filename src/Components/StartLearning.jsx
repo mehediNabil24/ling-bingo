@@ -16,12 +16,12 @@ const StartLearning = () => {
                     japan.map(jap => (
                         <div key={jap.id} className="card bg-gray-200 ">
                             <div className="card-body">
-                                <h2 className="card-title ">Lesson-{jap.id}</h2>
+                                <h2 className="card-title ">Lesson-{jap.lesson_no}</h2>
                                 
                                 
-                                    <button className="btn btn-primary">
-                                        <NavLink to={`/details/${jap.id}`} >Start Lesson</NavLink>
-                                    </button>
+                                    
+                                        <NavLink className={'btn btn-primary'} to={`/details/${jap.id}`} >Start Lesson</NavLink>
+                                    
                                 
                             </div>
                         </div>
