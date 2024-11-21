@@ -1,7 +1,9 @@
 import React from 'react';
 import CountUp from 'react-countup';
+import { useNavigate } from 'react-router-dom';
 
 const Success = () => {
+  const navigate =useNavigate();
     const stats = [
         { id: 1, label: 'Happy Users', value: 500, color: 'text-blue-600' },
         { id: 2, label: 'Lessons', value: 10, color: 'text-green-600' },

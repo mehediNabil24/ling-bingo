@@ -1,7 +1,9 @@
 import React from 'react';
 import { FaLanguage, FaHandshake, FaGlobe, FaLightbulb, FaBrain } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 
 const WhyLearn = () => {
+  const navigate = useNavigate();
   return (
     <section className="py-10 bg-white">
       <div className="container mx-auto">
@@ -62,7 +64,9 @@ const WhyLearn = () => {
           </div>
         </div>
         <div className="text-center mt-8">
-          <button className="btn btn-primary">Start Learning Now</button>
+          <button onClick={()=>{
+            navigate('/start-learning')
+          }} className="btn btn-primary">Start Learning Now</button>
         </div>
       </div>
     </section>

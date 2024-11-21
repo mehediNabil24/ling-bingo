@@ -1,7 +1,8 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useNavigate } from 'react-router-dom';
 
 const LearningDetails = () => {
+    const navigate =useNavigate();
     const {id,word,pronunciation,meaning,part_of_speech,difficulty,lesson_no,when_to_say,example} =useLoaderData()
     return (
         <div className='w-11/12 mx-auto '>
@@ -19,7 +20,7 @@ const LearningDetails = () => {
     
     <div className="card-actions flex  justify-between mt-5 gap-10">
         <button className='btn btn-neutral' onClick={()=>document.getElementById('my_modal_5').showModal()}>When to Say</button>
-      <button className="btn btn-primary">Back to Lesson</button>
+      <button onClick={()=>{navigate('/start-learning')}} className="btn btn-primary">Back to Lesson</button>
     </div>
   </div>
 </div>
