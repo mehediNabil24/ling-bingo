@@ -7,11 +7,11 @@ import { AuthContext } from './AuthProvider';
 const Navbar = () => {
     const {user,logOut} =useContext(AuthContext);
     return (
-        <div className='flex justify-between items-center  '>
+        <div className=' md:flex justify-between items-center  '>
             <div>
                 <img className='w-[60px] h-[60px] rounded-full' src={logo} alt="" />
             </div>
-            <div className='space-x-5'>
+            <div className='md:space-x-5 space-x-2'>
                 <NavLink to={'/'}>Home</NavLink>
                 <NavLink to={'/start-learning'}>Start-Learning</NavLink>
                 <NavLink to={'/tutorial'}>Tutorials</NavLink>
@@ -19,7 +19,9 @@ const Navbar = () => {
                 <NavLink to={'/my-profile'}>My-Profile</NavLink>
 
             </div>
-            <div className='flex items-center justify-center gap-2'>
+            <
+                
+                div className='flex items-center justify-center gap-2'>
             <div>
                 {
                     user?.email? <div className='flex flex-col items-center justify-center mr-2 '>

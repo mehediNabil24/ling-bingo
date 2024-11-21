@@ -5,8 +5,10 @@ const Tutorials = () => {
     return (
         <div className='w-11/12 mx-auto'>
             <h1 className='font-semibold text-2xl  text-center'>Learn Language with videos</h1>
-            <div className='mt-5 rounded-lg grid grid-cold-1 md:grid-cols-2 gap-10'>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/WMmg1iY50Hs?si=PJ1cXN2HFZDZMl1x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div className='mt-5 rounded-lg grid grid-cold-1 md:grid-cols-2 gap-10 '>
+            <div className="aspect-w-16 aspect-h-9">
+            <iframe className="md:w-[560px] w-[300px]" width="560" height="315" src="https://www.youtube.com/embed/WMmg1iY50Hs?si=PJ1cXN2HFZDZMl1x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/4MNnv5hsfYw?si=fJRk7rSKRqHmDGET" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/sISIVKJh_EA?si=H_yFnDuUfeqKMyoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/80SbujIsWdg?si=fX9LRxQYkP4XuLxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
